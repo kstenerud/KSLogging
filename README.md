@@ -27,7 +27,8 @@ defaults to **INFO**.
 
     KSLogger_Level=WARN
 
-Anything below that log level will not be printed.
+Anything below that log level will not be printed
+(except in local logging - see below).
 
 
 1: Include the correct header file, one of:
