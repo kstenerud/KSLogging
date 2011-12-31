@@ -11,7 +11,7 @@ KSLogger prints log entries to the console consisting of:
 * Function
 * Message
 
-You can set the minimum logging level in the preprocessor.
+You can set the minimum logging level in the preprocessor and at the file level.
 
 
 Usage
