@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'KSLogger' target in the 'KSLogger' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
