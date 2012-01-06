@@ -6,6 +6,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 
+#import "ARCSafe_MemMgmt.h"
 
 // Using the Objective-C logger.
 #import <KSLogger/KSLoggerObjC.h>
@@ -18,9 +19,9 @@
 
 - (void)dealloc
 {
-    [_window release];
-    [_viewController release];
-    [super dealloc];
+    as_release(_window);
+    as_release(_viewController);
+    as_superdealloc();
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -40,18 +41,16 @@
     KSLOGBASIC_DEBUG(@"Basic debug message");
     KSLOGBASIC_TRACE(@"Basic trace message");
     
-
+    
 #pragma unused(launchOptions)
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    // Override point for customization after application launch.
+    self.window = as_autorelease([[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]]);
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil] autorelease];
+        self.viewController = as_autorelease([[ViewController alloc] initWithNibName:@"ViewController_iPhone" bundle:nil]);
     } else {
-        self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil] autorelease];
+        self.viewController = as_autorelease([[ViewController alloc] initWithNibName:@"ViewController_iPad" bundle:nil]);
     }
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES;
 }
-
 @end

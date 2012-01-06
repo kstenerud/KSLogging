@@ -1,7 +1,7 @@
 //
-//  KSLoggerObjC.m
+//  ARCSafe_MemMgmt.h
 //
-//  Created by Karl Stenerud on 11-06-25.
+//  Created by Karl Stenerud on 11-10-01.
 //
 //  Copyright (c) 2011 Karl Stenerud. All rights reserved.
 //
@@ -22,34 +22,33 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
-//
 
-#import "KSLoggerObjC.h"
-
-
-static const char* lastPathEntry(const char* path)
-{
-    const char* lastFile = strrchr(path, '/');
-    return lastFile == 0 ? path : lastFile + 1;
-}
+#ifndef HDR_ARCSafe_MemMgmt_h
+#define HDR_ARCSafe_MemMgmt_h
 
 
-void i_kslog_objc(const char* level,
-                  const char* file,
-                  unsigned int line,
-                  const char* function,
-                  NSString* fmt, ...)
-{
-    va_list args;
-    va_start(args,fmt);
-    CFStringRef entry = CFStringCreateWithFormatAndArguments(NULL,
-                                                             NULL,
-                                                             (__bridge CFStringRef)fmt,
-                                                             args);
-    va_end(args);
+/** Memory management macros that work with or without automatic reference
+ * counting enabled:
+ *
+ * - as_retain(id object): Retain an object. Returns the retained object.
+ *
+ * - as_release(id object): Release an object.
+ *
+ * - as_autorelease(id object): Autorelease an object. Returns the object.
+ *
+ * - as_superdealloc(): Call [super dealloc]. Use at the end of a dealloc method.
+ */
+#if __has_feature(objc_arc)
+    #define as_retain(X) (X)
+    #define as_release(X)
+    #define as_autorelease(X) (X)
+    #define as_superdealloc()
+#else
+    #define as_retain(X) [(X) retain]
+    #define as_release(X) [(X) release]
+    #define as_autorelease(X) [(X) autorelease]
+    #define as_superdealloc() [super dealloc]
+#endif
 
-    NSLog(@"%s: %s (%u): %s: %@",
-          level, lastPathEntry(file), line, function, entry);
 
-    CFRelease(entry);
-}
+#endif // HDR_ARCSafe_MemMgmt_h

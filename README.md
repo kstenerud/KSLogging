@@ -13,6 +13,8 @@ KSLogger prints log entries to the console consisting of:
 
 You can set the minimum logging level in the preprocessor and at the file level.
 
+KSLogger is ARC safe (it will compile and run fine with or without ARC enabled).
+
 
 Usage
 =====
@@ -63,7 +65,26 @@ Prints:
 
 
 The "BASIC" versions of the macros behave exactly like NSLog, except they
-respect the KSLogger_Level setting.
+respect the KSLogger_Level setting:
+
+Code:
+
+    KSLOGBASIC_ERROR(@"A basic log entry");
+
+Prints:
+
+   2011-09-25 05:44:05.916 TestApp[4473:f803] A basic log entry
+
+
+Note: The C versions use "" instead of @"" in the format field, and do not
+      print the NSLog preamble:
+
+Objective-C version:
+
+   2011-09-25 05:41:01.379 TestApp[4439:f803] ERROR: SomeClass.m (21): -[SomeFunction]: Some error message
+
+C version:
+   ERROR: SomeClass.m (21): -[SomeFunction]: Some error message
 
 
 Local Logging

@@ -7,145 +7,148 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3924D56514AF87CF000B972E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3924D56314AF87CF000B972E /* InfoPlist.strings */; };
-		3924D57214AF87DB000B972E /* KSLoggerC.c in Sources */ = {isa = PBXBuildFile; fileRef = 3924D56C14AF87DB000B972E /* KSLoggerC.c */; };
-		3924D57314AF87DB000B972E /* KSLoggerC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3924D56D14AF87DB000B972E /* KSLoggerC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3924D57414AF87DB000B972E /* KSLoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3924D56E14AF87DB000B972E /* KSLoggerCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3924D57614AF87DB000B972E /* KSLoggerObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3924D57014AF87DB000B972E /* KSLoggerObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3924D57714AF87DB000B972E /* KSLoggerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3924D57114AF87DB000B972E /* KSLoggerObjC.m */; };
-		3924D58014AF8845000B972E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3924D57F14AF8845000B972E /* UIKit.framework */; };
-		3924D58214AF8845000B972E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3924D58114AF8845000B972E /* Foundation.framework */; };
-		3924D58414AF8845000B972E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3924D58314AF8845000B972E /* CoreGraphics.framework */; };
-		3924D58A14AF8845000B972E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3924D58814AF8845000B972E /* InfoPlist.strings */; };
-		3924D58C14AF8845000B972E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3924D58B14AF8845000B972E /* main.m */; };
-		3924D59014AF8845000B972E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3924D58F14AF8845000B972E /* AppDelegate.m */; };
-		3924D59314AF8846000B972E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3924D59214AF8846000B972E /* ViewController.m */; };
-		3924D59614AF8846000B972E /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3924D59414AF8846000B972E /* ViewController_iPhone.xib */; };
-		3924D59914AF8846000B972E /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3924D59714AF8846000B972E /* ViewController_iPad.xib */; };
-		3924D59D14AF8854000B972E /* KSLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3924D55E14AF87CF000B972E /* KSLogger.framework */; };
+		3981685C14B6121500DA3281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3981685A14B6121500DA3281 /* InfoPlist.strings */; };
+		3981686814B6128700DA3281 /* KSLoggerC.c in Sources */ = {isa = PBXBuildFile; fileRef = 3981686314B6128700DA3281 /* KSLoggerC.c */; };
+		3981686914B6128700DA3281 /* KSLoggerC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3981686414B6128700DA3281 /* KSLoggerC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3981686A14B6128700DA3281 /* KSLoggerCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3981686514B6128700DA3281 /* KSLoggerCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3981686B14B6128700DA3281 /* KSLoggerObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 3981686614B6128700DA3281 /* KSLoggerObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3981686C14B6128700DA3281 /* KSLoggerObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3981686714B6128700DA3281 /* KSLoggerObjC.m */; };
+		3981687514B612A500DA3281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3981687414B612A500DA3281 /* UIKit.framework */; };
+		3981687714B612A500DA3281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3981687614B612A500DA3281 /* Foundation.framework */; };
+		3981687914B612A500DA3281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3981687814B612A500DA3281 /* CoreGraphics.framework */; };
+		3981687F14B612A500DA3281 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3981687D14B612A500DA3281 /* InfoPlist.strings */; };
+		3981688114B612A500DA3281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3981688014B612A500DA3281 /* main.m */; };
+		3981688514B612A500DA3281 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3981688414B612A500DA3281 /* AppDelegate.m */; };
+		3981688814B612A500DA3281 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3981688714B612A500DA3281 /* ViewController.m */; };
+		3981688B14B612A500DA3281 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3981688914B612A500DA3281 /* ViewController_iPhone.xib */; };
+		3981688E14B612A500DA3281 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3981688C14B612A500DA3281 /* ViewController_iPad.xib */; };
+		3981689214B612E500DA3281 /* KSLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3981685514B6121500DA3281 /* KSLogger.framework */; };
+		3981689814B6132B00DA3281 /* ARCSafe_MemMgmt.h in Headers */ = {isa = PBXBuildFile; fileRef = 3981689714B6132B00DA3281 /* ARCSafe_MemMgmt.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3924D55E14AF87CF000B972E /* KSLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3924D56214AF87CF000B972E /* KSLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSLogger-Info.plist"; sourceTree = "<group>"; };
-		3924D56414AF87CF000B972E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3924D56614AF87CF000B972E /* KSLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KSLogger-Prefix.pch"; sourceTree = "<group>"; };
-		3924D56C14AF87DB000B972E /* KSLoggerC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KSLoggerC.c; sourceTree = "<group>"; };
-		3924D56D14AF87DB000B972E /* KSLoggerC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLoggerC.h; sourceTree = "<group>"; };
-		3924D56E14AF87DB000B972E /* KSLoggerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLoggerCommon.h; sourceTree = "<group>"; };
-		3924D57014AF87DB000B972E /* KSLoggerObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLoggerObjC.h; sourceTree = "<group>"; };
-		3924D57114AF87DB000B972E /* KSLoggerObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLoggerObjC.m; sourceTree = "<group>"; };
-		3924D57C14AF8845000B972E /* LoggingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoggingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3924D57F14AF8845000B972E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3924D58114AF8845000B972E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		3924D58314AF8845000B972E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3924D58714AF8845000B972E /* LoggingTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoggingTest-Info.plist"; sourceTree = "<group>"; };
-		3924D58914AF8845000B972E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3924D58B14AF8845000B972E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3924D58D14AF8845000B972E /* LoggingTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoggingTest-Prefix.pch"; sourceTree = "<group>"; };
-		3924D58E14AF8845000B972E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3924D58F14AF8845000B972E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3924D59114AF8845000B972E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3924D59214AF8846000B972E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3924D59514AF8846000B972E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		3924D59814AF8846000B972E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		3981685514B6121500DA3281 /* KSLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3981685914B6121500DA3281 /* KSLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSLogger-Info.plist"; sourceTree = "<group>"; };
+		3981685B14B6121500DA3281 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3981685D14B6121500DA3281 /* KSLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KSLogger-Prefix.pch"; sourceTree = "<group>"; };
+		3981686314B6128700DA3281 /* KSLoggerC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KSLoggerC.c; sourceTree = "<group>"; };
+		3981686414B6128700DA3281 /* KSLoggerC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLoggerC.h; sourceTree = "<group>"; };
+		3981686514B6128700DA3281 /* KSLoggerCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLoggerCommon.h; sourceTree = "<group>"; };
+		3981686614B6128700DA3281 /* KSLoggerObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLoggerObjC.h; sourceTree = "<group>"; };
+		3981686714B6128700DA3281 /* KSLoggerObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLoggerObjC.m; sourceTree = "<group>"; };
+		3981687114B612A500DA3281 /* LoggingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoggingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3981687414B612A500DA3281 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3981687614B612A500DA3281 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3981687814B612A500DA3281 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3981687C14B612A500DA3281 /* LoggingTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoggingTest-Info.plist"; sourceTree = "<group>"; };
+		3981687E14B612A500DA3281 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3981688014B612A500DA3281 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3981688214B612A500DA3281 /* LoggingTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LoggingTest-Prefix.pch"; sourceTree = "<group>"; };
+		3981688314B612A500DA3281 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3981688414B612A500DA3281 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3981688614B612A500DA3281 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3981688714B612A500DA3281 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3981688A14B612A500DA3281 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		3981688D14B612A500DA3281 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		3981689714B6132B00DA3281 /* ARCSafe_MemMgmt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCSafe_MemMgmt.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3924D55914AF87CF000B972E /* Frameworks */ = {
+		3981685014B6121500DA3281 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3924D57914AF8845000B972E /* Frameworks */ = {
+		3981686E14B612A500DA3281 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3924D59D14AF8854000B972E /* KSLogger.framework in Frameworks */,
-				3924D58014AF8845000B972E /* UIKit.framework in Frameworks */,
-				3924D58214AF8845000B972E /* Foundation.framework in Frameworks */,
-				3924D58414AF8845000B972E /* CoreGraphics.framework in Frameworks */,
+				3981689214B612E500DA3281 /* KSLogger.framework in Frameworks */,
+				3981687514B612A500DA3281 /* UIKit.framework in Frameworks */,
+				3981687714B612A500DA3281 /* Foundation.framework in Frameworks */,
+				3981687914B612A500DA3281 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3924D55014AF87CF000B972E = {
+		3981684714B6121400DA3281 = {
 			isa = PBXGroup;
 			children = (
-				3924D56014AF87CF000B972E /* KSLogger */,
-				3924D58514AF8845000B972E /* LoggingTest */,
-				3924D57E14AF8845000B972E /* Frameworks */,
-				3924D55F14AF87CF000B972E /* Products */,
+				3981685714B6121500DA3281 /* KSLogger */,
+				3981687A14B612A500DA3281 /* LoggingTest */,
+				3981687314B612A500DA3281 /* Frameworks */,
+				3981685614B6121500DA3281 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3924D55F14AF87CF000B972E /* Products */ = {
+		3981685614B6121500DA3281 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3924D55E14AF87CF000B972E /* KSLogger.framework */,
-				3924D57C14AF8845000B972E /* LoggingTest.app */,
+				3981685514B6121500DA3281 /* KSLogger.framework */,
+				3981687114B612A500DA3281 /* LoggingTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3924D56014AF87CF000B972E /* KSLogger */ = {
+		3981685714B6121500DA3281 /* KSLogger */ = {
 			isa = PBXGroup;
 			children = (
-				3924D56C14AF87DB000B972E /* KSLoggerC.c */,
-				3924D56D14AF87DB000B972E /* KSLoggerC.h */,
-				3924D56E14AF87DB000B972E /* KSLoggerCommon.h */,
-				3924D57014AF87DB000B972E /* KSLoggerObjC.h */,
-				3924D57114AF87DB000B972E /* KSLoggerObjC.m */,
-				3924D56114AF87CF000B972E /* Supporting Files */,
+				3981686314B6128700DA3281 /* KSLoggerC.c */,
+				3981686414B6128700DA3281 /* KSLoggerC.h */,
+				3981686514B6128700DA3281 /* KSLoggerCommon.h */,
+				3981686614B6128700DA3281 /* KSLoggerObjC.h */,
+				3981686714B6128700DA3281 /* KSLoggerObjC.m */,
+				3981685814B6121500DA3281 /* Supporting Files */,
 			);
 			path = KSLogger;
 			sourceTree = "<group>";
 		};
-		3924D56114AF87CF000B972E /* Supporting Files */ = {
+		3981685814B6121500DA3281 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3924D56214AF87CF000B972E /* KSLogger-Info.plist */,
-				3924D56314AF87CF000B972E /* InfoPlist.strings */,
-				3924D56614AF87CF000B972E /* KSLogger-Prefix.pch */,
+				3981685914B6121500DA3281 /* KSLogger-Info.plist */,
+				3981685A14B6121500DA3281 /* InfoPlist.strings */,
+				3981685D14B6121500DA3281 /* KSLogger-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3924D57E14AF8845000B972E /* Frameworks */ = {
+		3981687314B612A500DA3281 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3924D57F14AF8845000B972E /* UIKit.framework */,
-				3924D58114AF8845000B972E /* Foundation.framework */,
-				3924D58314AF8845000B972E /* CoreGraphics.framework */,
+				3981687414B612A500DA3281 /* UIKit.framework */,
+				3981687614B612A500DA3281 /* Foundation.framework */,
+				3981687814B612A500DA3281 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3924D58514AF8845000B972E /* LoggingTest */ = {
+		3981687A14B612A500DA3281 /* LoggingTest */ = {
 			isa = PBXGroup;
 			children = (
-				3924D58E14AF8845000B972E /* AppDelegate.h */,
-				3924D58F14AF8845000B972E /* AppDelegate.m */,
-				3924D59114AF8845000B972E /* ViewController.h */,
-				3924D59214AF8846000B972E /* ViewController.m */,
-				3924D59414AF8846000B972E /* ViewController_iPhone.xib */,
-				3924D59714AF8846000B972E /* ViewController_iPad.xib */,
-				3924D58614AF8845000B972E /* Supporting Files */,
+				3981689714B6132B00DA3281 /* ARCSafe_MemMgmt.h */,
+				3981688314B612A500DA3281 /* AppDelegate.h */,
+				3981688414B612A500DA3281 /* AppDelegate.m */,
+				3981688614B612A500DA3281 /* ViewController.h */,
+				3981688714B612A500DA3281 /* ViewController.m */,
+				3981688914B612A500DA3281 /* ViewController_iPhone.xib */,
+				3981688C14B612A500DA3281 /* ViewController_iPad.xib */,
+				3981687B14B612A500DA3281 /* Supporting Files */,
 			);
 			path = LoggingTest;
 			sourceTree = "<group>";
 		};
-		3924D58614AF8845000B972E /* Supporting Files */ = {
+		3981687B14B612A500DA3281 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3924D58714AF8845000B972E /* LoggingTest-Info.plist */,
-				3924D58814AF8845000B972E /* InfoPlist.strings */,
-				3924D58B14AF8845000B972E /* main.m */,
-				3924D58D14AF8845000B972E /* LoggingTest-Prefix.pch */,
+				3981687C14B612A500DA3281 /* LoggingTest-Info.plist */,
+				3981687D14B612A500DA3281 /* InfoPlist.strings */,
+				3981688014B612A500DA3281 /* main.m */,
+				3981688214B612A500DA3281 /* LoggingTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -153,29 +156,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3924D55A14AF87CF000B972E /* Headers */ = {
+		3981685114B6121500DA3281 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3924D57314AF87DB000B972E /* KSLoggerC.h in Headers */,
-				3924D57414AF87DB000B972E /* KSLoggerCommon.h in Headers */,
-				3924D57614AF87DB000B972E /* KSLoggerObjC.h in Headers */,
+				3981686914B6128700DA3281 /* KSLoggerC.h in Headers */,
+				3981686A14B6128700DA3281 /* KSLoggerCommon.h in Headers */,
+				3981686B14B6128700DA3281 /* KSLoggerObjC.h in Headers */,
+				3981689814B6132B00DA3281 /* ARCSafe_MemMgmt.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3924D55D14AF87CF000B972E /* KSLogger */ = {
+		3981685414B6121500DA3281 /* KSLogger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3924D56914AF87CF000B972E /* Build configuration list for PBXNativeTarget "KSLogger" */;
+			buildConfigurationList = 3981686014B6121500DA3281 /* Build configuration list for PBXNativeTarget "KSLogger" */;
 			buildPhases = (
-				3924D55714AF87CF000B972E /* ShellScript */,
-				3924D55814AF87CF000B972E /* Sources */,
-				3924D55914AF87CF000B972E /* Frameworks */,
-				3924D55A14AF87CF000B972E /* Headers */,
-				3924D55B14AF87CF000B972E /* Resources */,
-				3924D55C14AF87CF000B972E /* ShellScript */,
+				3981684E14B6121500DA3281 /* ShellScript */,
+				3981684F14B6121500DA3281 /* Sources */,
+				3981685014B6121500DA3281 /* Frameworks */,
+				3981685114B6121500DA3281 /* Headers */,
+				3981685214B6121500DA3281 /* Resources */,
+				3981685314B6121500DA3281 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -183,16 +187,16 @@
 			);
 			name = KSLogger;
 			productName = KSLogger;
-			productReference = 3924D55E14AF87CF000B972E /* KSLogger.framework */;
+			productReference = 3981685514B6121500DA3281 /* KSLogger.framework */;
 			productType = "com.apple.product-type.bundle";
 		};
-		3924D57B14AF8845000B972E /* LoggingTest */ = {
+		3981687014B612A500DA3281 /* LoggingTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3924D59A14AF8846000B972E /* Build configuration list for PBXNativeTarget "LoggingTest" */;
+			buildConfigurationList = 3981688F14B612A500DA3281 /* Build configuration list for PBXNativeTarget "LoggingTest" */;
 			buildPhases = (
-				3924D57814AF8845000B972E /* Sources */,
-				3924D57914AF8845000B972E /* Frameworks */,
-				3924D57A14AF8845000B972E /* Resources */,
+				3981686D14B612A500DA3281 /* Sources */,
+				3981686E14B612A500DA3281 /* Frameworks */,
+				3981686F14B612A500DA3281 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -200,58 +204,58 @@
 			);
 			name = LoggingTest;
 			productName = LoggingTest;
-			productReference = 3924D57C14AF8845000B972E /* LoggingTest.app */;
+			productReference = 3981687114B612A500DA3281 /* LoggingTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3924D55214AF87CF000B972E /* Project object */ = {
+		3981684914B6121400DA3281 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
 			};
-			buildConfigurationList = 3924D55514AF87CF000B972E /* Build configuration list for PBXProject "KSLogger" */;
+			buildConfigurationList = 3981684C14B6121400DA3281 /* Build configuration list for PBXProject "KSLogger" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 3924D55014AF87CF000B972E;
-			productRefGroup = 3924D55F14AF87CF000B972E /* Products */;
+			mainGroup = 3981684714B6121400DA3281;
+			productRefGroup = 3981685614B6121500DA3281 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3924D55D14AF87CF000B972E /* KSLogger */,
-				3924D57B14AF8845000B972E /* LoggingTest */,
+				3981685414B6121500DA3281 /* KSLogger */,
+				3981687014B612A500DA3281 /* LoggingTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3924D55B14AF87CF000B972E /* Resources */ = {
+		3981685214B6121500DA3281 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3924D56514AF87CF000B972E /* InfoPlist.strings in Resources */,
+				3981685C14B6121500DA3281 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3924D57A14AF8845000B972E /* Resources */ = {
+		3981686F14B612A500DA3281 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3924D58A14AF8845000B972E /* InfoPlist.strings in Resources */,
-				3924D59614AF8846000B972E /* ViewController_iPhone.xib in Resources */,
-				3924D59914AF8846000B972E /* ViewController_iPad.xib in Resources */,
+				3981687F14B612A500DA3281 /* InfoPlist.strings in Resources */,
+				3981688B14B612A500DA3281 /* ViewController_iPhone.xib in Resources */,
+				3981688E14B612A500DA3281 /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3924D55714AF87CF000B972E /* ShellScript */ = {
+		3981684E14B6121500DA3281 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,7 +268,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n";
 		};
-		3924D55C14AF87CF000B972E /* ShellScript */ = {
+		3981685314B6121500DA3281 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -280,56 +284,56 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3924D55814AF87CF000B972E /* Sources */ = {
+		3981684F14B6121500DA3281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3924D57214AF87DB000B972E /* KSLoggerC.c in Sources */,
-				3924D57714AF87DB000B972E /* KSLoggerObjC.m in Sources */,
+				3981686814B6128700DA3281 /* KSLoggerC.c in Sources */,
+				3981686C14B6128700DA3281 /* KSLoggerObjC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3924D57814AF8845000B972E /* Sources */ = {
+		3981686D14B612A500DA3281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3924D58C14AF8845000B972E /* main.m in Sources */,
-				3924D59014AF8845000B972E /* AppDelegate.m in Sources */,
-				3924D59314AF8846000B972E /* ViewController.m in Sources */,
+				3981688114B612A500DA3281 /* main.m in Sources */,
+				3981688514B612A500DA3281 /* AppDelegate.m in Sources */,
+				3981688814B612A500DA3281 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3924D56314AF87CF000B972E /* InfoPlist.strings */ = {
+		3981685A14B6121500DA3281 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3924D56414AF87CF000B972E /* en */,
+				3981685B14B6121500DA3281 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3924D58814AF8845000B972E /* InfoPlist.strings */ = {
+		3981687D14B612A500DA3281 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3924D58914AF8845000B972E /* en */,
+				3981687E14B612A500DA3281 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		3924D59414AF8846000B972E /* ViewController_iPhone.xib */ = {
+		3981688914B612A500DA3281 /* ViewController_iPhone.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3924D59514AF8846000B972E /* en */,
+				3981688A14B612A500DA3281 /* en */,
 			);
 			name = ViewController_iPhone.xib;
 			sourceTree = "<group>";
 		};
-		3924D59714AF8846000B972E /* ViewController_iPad.xib */ = {
+		3981688C14B612A500DA3281 /* ViewController_iPad.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3924D59814AF8846000B972E /* en */,
+				3981688D14B612A500DA3281 /* en */,
 			);
 			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
@@ -337,11 +341,12 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3924D56714AF87CF000B972E /* Debug */ = {
+		3981685E14B6121500DA3281 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
@@ -382,11 +387,12 @@
 			};
 			name = Debug;
 		};
-		3924D56814AF87CF000B972E /* Release */ = {
+		3981685F14B6121500DA3281 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
 				CLANG_WARN_OBJCPP_ARC_ABI = YES;
@@ -421,7 +427,7 @@
 			};
 			name = Release;
 		};
-		3924D56A14AF87CF000B972E /* Debug */ = {
+		3981686114B6121500DA3281 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
@@ -432,11 +438,6 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KSLogger/KSLogger-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"KSLogger_CBufferSize=2048",
-					"$(inherited)",
-				);
-				GCC_WARN_PEDANTIC = YES;
 				INFOPLIST_FILE = "KSLogger/KSLogger-Info.plist";
 				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
@@ -449,7 +450,7 @@
 			};
 			name = Debug;
 		};
-		3924D56B14AF87CF000B972E /* Release */ = {
+		3981686214B6121500DA3281 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CONTENTS_FOLDER_PATH = "$(WRAPPER_NAME)/Versions/$(FRAMEWORK_VERSION)";
@@ -460,11 +461,6 @@
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KSLogger/KSLogger-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"KSLogger_CBufferSize=2048",
-					"$(inherited)",
-				);
-				GCC_WARN_PEDANTIC = YES;
 				INFOPLIST_FILE = "KSLogger/KSLogger-Info.plist";
 				INFOPLIST_PATH = "$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
@@ -477,7 +473,7 @@
 			};
 			name = Release;
 		};
-		3924D59B14AF8846000B972E /* Debug */ = {
+		3981689014B612A500DA3281 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -498,7 +494,7 @@
 			};
 			name = Debug;
 		};
-		3924D59C14AF8846000B972E /* Release */ = {
+		3981689114B612A500DA3281 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -523,32 +519,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3924D55514AF87CF000B972E /* Build configuration list for PBXProject "KSLogger" */ = {
+		3981684C14B6121400DA3281 /* Build configuration list for PBXProject "KSLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3924D56714AF87CF000B972E /* Debug */,
-				3924D56814AF87CF000B972E /* Release */,
+				3981685E14B6121500DA3281 /* Debug */,
+				3981685F14B6121500DA3281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3924D56914AF87CF000B972E /* Build configuration list for PBXNativeTarget "KSLogger" */ = {
+		3981686014B6121500DA3281 /* Build configuration list for PBXNativeTarget "KSLogger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3924D56A14AF87CF000B972E /* Debug */,
-				3924D56B14AF87CF000B972E /* Release */,
+				3981686114B6121500DA3281 /* Debug */,
+				3981686214B6121500DA3281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3924D59A14AF8846000B972E /* Build configuration list for PBXNativeTarget "LoggingTest" */ = {
+		3981688F14B612A500DA3281 /* Build configuration list for PBXNativeTarget "LoggingTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3924D59B14AF8846000B972E /* Debug */,
-				3924D59C14AF8846000B972E /* Release */,
+				3981689014B612A500DA3281 /* Debug */,
+				3981689114B612A500DA3281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3924D55214AF87CF000B972E /* Project object */;
+	rootObject = 3981684914B6121400DA3281 /* Project object */;
 }

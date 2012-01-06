@@ -41,7 +41,7 @@
  *
  * Can set the minimum logging level in the preprocessor.
  *
- * Works in C or Objective-C contexts.
+ * Works in C or Objective-C contexts, with or without ARC.
  *
  *
  * =====
@@ -81,7 +81,24 @@
  *
  *
  * The "BASIC" versions of the macros behave exactly like NSLog, except they
- * respect the KSLogger_Level setting.
+ * respect the KSLogger_Level setting:
+ *
+ * Code:
+ *    KSLOGBASIC_ERROR(@"A basic log entry");
+ *
+ * Prints:
+ *    2011-09-25 05:44:05.916 TestApp[4473:f803] A basic log entry
+ *
+ *
+ * Note: The C versions use "" instead of @"" in the format field, and do not
+ *       print the NSLog preamble:
+ *
+ * Objective-C version:
+ *
+ *    2011-09-25 05:41:01.379 TestApp[4439:f803] ERROR: SomeClass.m (21): -[SomeFunction]: Some error message
+ *
+ * C version:
+ *    ERROR: SomeClass.m (21): -[SomeFunction]: Some error message
  *
  *
  * =============
@@ -151,6 +168,9 @@
     #define KSLogger_Level INFO
 #endif
 
+#ifndef KSLogger_LocalLevel
+    #define KSLogger_LocalLevel NONE
+#endif
 
 #define a_KSLOG_FULL(LEVEL, FMT, ...) \
     i_KSLOG_FULL(LEVEL, \
@@ -159,7 +179,6 @@
                  __PRETTY_FUNCTION__, \
                  FMT, \
                  ##__VA_ARGS__)
-
 
 
 
